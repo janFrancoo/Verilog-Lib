@@ -43,8 +43,7 @@ module alarm (input clk, /* assuming 50MHz */
 	end
 	
 	assign a_second = (alarm_out == 1'b1) ? 1'b0 : 
-						((sec_cnt[0] == 0 && sec_cnt[1] == 0 && sec_cnt[2] == 0) ? 
-																		1'b1 : 1'b0);
+						((sec_cnt[0] == 0 && sec_cnt[1] == 0 && sec_cnt[2] == 0) ? 1'b1 : 1'b0);
 						
 	always @ (posedge a_second) begin
 		secs = secs + 1;
