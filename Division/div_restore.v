@@ -1,0 +1,105 @@
+
+module signed_div (input start, clk, clrn, [31:0] a, [15:0] b,
+		output reg [31:0] q, [15:0] r);
+
+	reg sign_a;
+	reg sign_b;
+	reg sign_res;
+	reg start_2;
+
+	reg [31:0] a_send;
+	reg [15:0] b_send;
+
+	wire [31:0] unsigned_q;
+	wire [15:0] unsigned_r;
+	wire ready;
+
+	div_restoring uut (.start(start_2), 
+				.clk(clk), 
+				.clrn(clrn), 
+				.a(a_send), 
+				.b(b_send), 
+				.q(unsigned_q),
+				.r(unsigned_r), 
+				.ready(ready));
+ 
+	always @ (posedge start) begin
+		sign_a = a[31];
+		sign_b = b[15];
+		
+		if (sign_a == sign_b)
+			sign_res = 0;
+		else
+			sign_res = 1;
+
+		if (sign_a)
+			a_send = ~a + 1;
+		else
+			a_send = a[30:0];	
+
+		if (sign_b)
+			b_send = ~b + 1;
+		else
+			b_send = b[30:0];
+
+		start_2 = 1;
+		#5 start_2 = 0;
+	end	
+
+	always @ (posedge ready) begin
+		if (sign_res) begin
+			q = ~unsigned_q + 1;
+			r = ~unsigned_r + 1;
+		end else begin
+			q = unsigned_q;
+			r = unsigned_r;
+		end	end
+
+	initial forever #1 $display ("%t %b %b %b %b", $time, unsigned_q, unsigned_r, sign_res, ready);
+
+endmodule
+
+module div_restoring(input start, clk, clrn, [31:0] a, [15:0] b,
+			output [31:0] q, [15:0] r, reg busy, reg ready, reg [4:0] count);
+
+	reg [31:0] reg_q;
+	reg [15:0] reg_r;
+	reg [15:0] reg_b;
+
+	wire [16:0] sub_out;
+	wire [15:0] mux_out;
+
+	assign q = reg_q;
+	assign r = reg_r;
+	assign sub_out = {reg_r, reg_q[31]} - {1'b0, reg_b};
+	assign mux_out = sub_out[16] ? {reg_r[14:0], reg_q[31]} : sub_out[15:0];
+
+	always @ (posedge clk or negedge clrn) begin
+
+		if ( !clrn ) begin
+			busy <= 0;
+			ready <= 0;
+		end else begin
+			if (start) begin
+				reg_q <= a;
+				reg_b <= b;
+				reg_r <= 0;
+				busy <= 1;
+				ready <= 0;
+				count <= 0;
+			end else if (busy) begin
+				reg_q <= {reg_q[30:0], ~sub_out[16]};
+				reg_r <= mux_out;
+				count <= count + 5'b1;
+				if (count == 5'h1f) begin
+					busy <= 0;
+					ready <= 1;
+				end
+			end
+		end
+
+	end
+
+	initial forever #1 $display ("%t %b %b", $time, a, b);
+
+endmodule

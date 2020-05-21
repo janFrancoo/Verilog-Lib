@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PC/Documents/Verilog Projects/Combinational Logic/Comparator
+vadd_sub_tb
+Z0 !s110 1586597479
+!i10b 1
+!s100 :YKD?5ZX`6mFmoSG5jQQK2
+IEmzzcjJh5eHGeITb@C2JB0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer
+w1586597475
+8C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor_tb.v
+FC:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor_tb.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1586597479.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor_tb.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vaddder
+!s110 1586595973
+!i10b 1
+!s100 a5[W<Me<TKKkdJV7]8>;g0
+IbhanaB76L2edQ6KQ0;1U>0
+R1
+R2
+w1586595932
+Z6 8C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor.v
+Z7 FC:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1586595973.000000
+Z8 !s107 C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor.v|
+!s101 -O0
+!i113 1
+R5
+vaddder_cin_cout
+!s110 1586596001
+!i10b 1
+!s100 =[e_VjdhD?BQ@z2Rcmm6e1
+I^9[;m`Cc=3_K1Q6DRT=P=1
+R1
+R2
+w1586595996
+R6
+R7
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1586596001.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R5
+vfull_adder
+R0
+!i10b 1
+!s100 6<QBK1cQ<f91LJ98:QSOC3
+IO`;WTU<1F3@Db`nPd6PcM1
+R1
+R2
+Z10 w1586597153
+R6
+R7
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!s101 -O0
+!i113 1
+R5
+vn_bit_adder_subtructor
+R0
+!i10b 1
+!s100 iTYi39B4Zz>VT4>ZRlQ8C2
+IBb4zg<=]Q5M`@ObSeH8f42
+R1
+R2
+R10
+R6
+R7
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!s101 -O0
+!i113 1
+R5

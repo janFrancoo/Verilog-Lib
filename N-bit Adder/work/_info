@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PC/Documents/Verilog Projects/CEN321 - Labs/Lab - 5
+vadder_n_bit
+!s110 1584810431
+!i10b 1
+!s100 S1_5M3:J[XK?VEB?aFjN00
+Ib<<[;1ghANN9:S5_ZoC[m1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder
+w1584810428
+8C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/n_bit_adder.v
+FC:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/n_bit_adder.v
+L0 2
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1584810431.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/n_bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/n_bit_adder.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfull_adder
+!s110 1584809191
+!i10b 1
+!s100 ?Kk6Yg7feKAHMaXh@8j[I2
+IJ<mE>OMa41DA>OUD6EVC^3
+R0
+R1
+w1584807993
+8C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/full_adder.v
+FC:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/full_adder.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1584809191.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/full_adder.v|
+!s101 -O0
+!i113 1
+R3
+vn_bit_adder_test
+!s110 1584809192
+!i10b 1
+!s100 V?B@;Edoh8l@QG4]D5mM12
+IGEe6mEP]iRh:hbbQb8_N82
+R0
+R1
+w1584809188
+8C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/test_n_bit_adder.v
+FC:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/test_n_bit_adder.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1584809192.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/test_n_bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/test_n_bit_adder.v|
+!s101 -O0
+!i113 1
+R3

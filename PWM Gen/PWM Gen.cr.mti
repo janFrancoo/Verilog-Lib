@@ -1,0 +1,19 @@
+{C:/Users/PC/Documents/Verilog Projects/PWM Gen/pwm_gen_tb.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/PWM Gen/pwm_gen_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pwm_gen_tb
+
+Top level modules:
+	pwm_gen_tb
+
+} {} {}} {C:/Users/PC/Documents/Verilog Projects/PWM Gen/pwm_gen.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/PWM Gen/pwm_gen.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pwm_gen
+-- Compiling module clk_divider
+-- Compiling module btn_debouncer
+-- Compiling module d_flip_flop
+-- Compiling module jk_flip_flop
+
+Top level modules:
+	pwm_gen
+
+} {} {}}

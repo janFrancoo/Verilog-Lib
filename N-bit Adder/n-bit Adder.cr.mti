@@ -1,0 +1,22 @@
+{C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/test_n_bit_adder.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/test_n_bit_adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module n_bit_adder_test
+
+Top level modules:
+	n_bit_adder_test
+
+} {} {}} {C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/full_adder.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/full_adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} {C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/n_bit_adder.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/Tutorial - n-bit Adder/n_bit_adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder_n_bit
+
+Top level modules:
+	adder_n_bit
+
+} {} {}}

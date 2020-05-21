@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PC/Documents/Verilog Projects/Park System Controller
+vn_bit_alu
+!s110 1588590274
+!i10b 1
+!s100 ge>aco8;3K<z5^mH:bTz10
+I[^TH7X^LUA5FTEfPX?PIR1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/PC/Documents/Verilog Projects/ALU Design
+w1588590267
+8C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu.v
+FC:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu.v
+L0 2
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1588590274.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vn_bit_alu_tb
+!s110 1588590275
+!i10b 1
+!s100 i4ZRaiJP<Eb?ng72jln<z2
+IW>0_1k1Z3PCnK5R2kQ@?91
+R0
+R1
+w1588588377
+8C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu_tb.v
+FC:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1588590275.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu_tb.v|
+!s101 -O0
+!i113 1
+R3

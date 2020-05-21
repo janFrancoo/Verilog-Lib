@@ -1,0 +1,15 @@
+{C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module n_bit_alu
+
+Top level modules:
+	n_bit_alu
+
+} {} {}} {C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu_tb.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/ALU Design/n_bit_alu_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module n_bit_alu_tb
+
+Top level modules:
+	n_bit_alu_tb
+
+} {} {}}

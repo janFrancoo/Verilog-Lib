@@ -1,0 +1,16 @@
+{C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module full_adder
+-- Compiling module n_bit_adder_subtructor
+
+Top level modules:
+	n_bit_adder_subtructor
+
+} {} {}} {C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor_tb.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/N-Bit Adder-Subtructer/n_bit_adder_subtructor_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module add_sub_tb
+
+Top level modules:
+	add_sub_tb
+
+} {} {}}

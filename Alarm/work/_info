@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PC/Documents/Verilog Projects/PWM Gen
+valarm
+Z0 !s110 1589723638
+!i10b 1
+!s100 YS?hO15IDE6P^@No7mLo42
+I@lDdmQSC[Od=>afAdQ<W92
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/PC/Documents/Verilog Projects/Alarm
+Z3 w1589723635
+Z4 8C:/Users/PC/Documents/Verilog Projects/Alarm/alarm.v
+Z5 FC:/Users/PC/Documents/Verilog Projects/Alarm/alarm.v
+L0 2
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1589723638.000000
+Z8 !s107 C:/Users/PC/Documents/Verilog Projects/Alarm/alarm.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Alarm/alarm.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vclk_divider
+R0
+!i10b 1
+!s100 JKM6@9`0]1KMnk[]l:3hO2
+I8C>F]hSHe`]<HSkb:Q5TM3
+R1
+R2
+R3
+R4
+R5
+L0 117
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vjk_flip_flop
+R0
+!i10b 1
+!s100 `DjSkYmTa88BaEkF@KEl]2
+I>KPF5`9E9]6RN_Z1`G4P>2
+R1
+R2
+R3
+R4
+R5
+L0 136
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
