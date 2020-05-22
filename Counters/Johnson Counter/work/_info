@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PC/Documents/Verilog Projects/Counters/Ring Counter
+vjohnson_counter
+!s110 1586427642
+!i10b 1
+!s100 UFRZZ=kj3B@aoPQm:edf62
+I@TeA2V043n<gNELbj[B6@2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter
+w1586427639
+8C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter.v
+FC:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter.v
+L0 2
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1586427642.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vjohnson_counter_tb
+!s110 1586427643
+!i10b 1
+!s100 7E05WM9o`PFjQld;f6IMJ0
+IZTgFdO5=IiDFmk082R7WS3
+R0
+R1
+w1586427598
+8C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter_tb.v
+FC:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1586427643.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter_tb.v|
+!s101 -O0
+!i113 1
+R3

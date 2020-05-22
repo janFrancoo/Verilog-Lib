@@ -1,0 +1,15 @@
+{C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter_tb.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module johnson_counter_tb
+
+Top level modules:
+	johnson_counter_tb
+
+} {} {}} {C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/Counters/Johnson Counter/johnson_counter.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module johnson_counter
+
+Top level modules:
+	johnson_counter
+
+} {} {}}

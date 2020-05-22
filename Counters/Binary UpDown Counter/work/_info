@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/PC/Documents/Verilog Projects/Counters/Binary Counter
+vbinary_up_down
+Z0 !s110 1586425508
+!i10b 1
+!s100 G[aB@dDH8;_NWiSjFhL2k2
+IgDK>UeTmzaR0ci?jA2@z:3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter
+w1586425186
+8C:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter.v
+FC:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1586425508.000000
+!s107 C:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vbinary_up_down_tb
+R0
+!i10b 1
+!s100 7E3Oi]569;n5Pe:<g0kA21
+I?nCVfKG9HOPJobO_AD1Kj3
+R1
+R2
+w1586425473
+8C:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter_tb.v
+FC:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/PC/Documents/Verilog Projects/Counters/Binary UpDown Counter/binary_up_down_counter_tb.v|
+!s101 -O0
+!i113 1
+R5

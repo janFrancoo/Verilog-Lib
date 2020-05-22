@@ -1,0 +1,15 @@
+{C:/Users/PC/Documents/Verilog Projects/Counters/Modulo R Binary Counter/modulo_r_bc.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/Counters/Modulo R Binary Counter/modulo_r_bc.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module modulo_r_bc
+
+Top level modules:
+	modulo_r_bc
+
+} {} {}} {C:/Users/PC/Documents/Verilog Projects/Counters/Modulo R Binary Counter/modulo_r_bc_tb.v} {1 {vlog -work work -stats=none {C:/Users/PC/Documents/Verilog Projects/Counters/Modulo R Binary Counter/modulo_r_bc_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module modulo_r_bc_tb
+
+Top level modules:
+	modulo_r_bc_tb
+
+} {} {}}
