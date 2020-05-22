@@ -1,0 +1,23 @@
+
+module binary_counter_tb;
+
+	localparam N = 10;
+	reg clk;
+	reg reset;
+	reg enable;
+	wire cout;
+	wire [N-1:0] Q;
+
+	binary_counter #(N) uut (clk, reset, enable, cout, Q);
+
+	initial begin
+			reset = 1'b0; enable = 1'b0; clk = 1'b0;
+		#5	reset = 1'b1; enable = 1'b1;
+		#50	enable = 1'b0;
+		#10	enable = 1'b1;
+		#150	$stop;
+	end
+
+	always #3 clk = ~clk;
+
+endmodule
